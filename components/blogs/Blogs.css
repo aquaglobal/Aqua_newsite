@@ -1,0 +1,41 @@
+.blog-container {
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    color: rgb(209 213 219);
+}
+
+.blog-container h2 {
+    margin-top: 40px;
+    font-size: 2em;
+    color: #ffffff;
+    font: bold;
+}
+
+.blog-container h3 {
+    margin-top: 30px;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+.blog-container p {
+    margin: 10px 0;
+}
+
+.blog-container ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.blog-container ul li {
+    margin: 5px 0;
+}
+
+.blog-container ul li p {
+    margin: 0;
+}
+
+strong {
+    color: #ffffff;
+}

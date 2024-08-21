@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  body {
+    background-color: #000000 !important;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+
+  main {
+    background-color: #000000 !important;
+  }
+}
+
+
+
+
+
+
+.nav {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  transition: all 0.3s !important;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #57b46a #000000;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+
+::-moz-selection {
+  background: #57b46a;
+}
+
+::selection {
+  background: #57b46a;
+}
+
+
+/* custom swiper buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  width: 3rem !important;
+  height: 3rem !important;
+  color: black !important;
+  background-color: white;
+  border-radius: 100%;
+  fill: black !important;
+  stroke: black !important;
+}
+
+.swiper-button-prev:after {
+  font-size: 15px !important;
+  font-weight: 900;
+}
+
+.swiper-button-next:after {
+  font-size: 15px !important;
+  font-weight: 900;
+}
+
+.mantine-Drawer-content {
+  background-image: linear-gradient(to bottom right, #57b46a, #85c9feff);
+  -ms-overflow-style: none;
+  /* for Internet Explorer, Edge */
+  scrollbar-width: none;
+}
