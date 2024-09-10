@@ -6,7 +6,7 @@ import '@mantine/core/styles.css';
 import { MantineProvider } from '@mantine/core';
 import FixedButtons from "@/components/FixedButtons";
 import { Toaster } from "react-hot-toast";
-import Script from 'next/script';
+import { GoogleAnalytics } from '@next/third-parties/google;
 const inter=Inter({ subsets: ["latin"] });
 
 export const metadata={
@@ -25,16 +25,10 @@ export default function RootLayout({ children }) {
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
     
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RSGMJ3PZZG">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)}
-  gtag('js', new Date());
-  gtag('config', 'G-RSGMJ3PZZG');
-</script>  
+
     </head>
       <body className={inter.className}>
+      <GoogleAnalytics gaId="G-RSGMJ3PZZG" />
         <MantineProvider>
           <div id="root" className="flex flex-col">
             <Navbar />
