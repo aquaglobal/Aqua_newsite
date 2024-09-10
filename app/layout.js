@@ -6,7 +6,7 @@ import '@mantine/core/styles.css';
 import { MantineProvider } from '@mantine/core';
 import FixedButtons from "@/components/FixedButtons";
 import { Toaster } from "react-hot-toast";
-import Script from 'next/script'
+import Script from 'next/script';
 const inter=Inter({ subsets: ["latin"] });
 
 export const metadata={
