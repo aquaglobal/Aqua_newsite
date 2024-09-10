@@ -6,7 +6,7 @@ import '@mantine/core/styles.css';
 import { MantineProvider } from '@mantine/core';
 import FixedButtons from "@/components/FixedButtons";
 import { Toaster } from "react-hot-toast";
-import { GoogleAnalytics } from '@next/third-parties/google;
+import { GoogleAnalytics } from "@next/third-parties/google";
 const inter=Inter({ subsets: ["latin"] });
 
 export const metadata={
